@@ -81,16 +81,20 @@ An educational platform I built to centralize academic resources for Computer Sc
 
 ### 📚 [Rawyverse](https://github.com/aymane-sbl/Rawyverse)
 
-My **first real software project**, created as a way to learn development by building instead of limiting myself to isolated exercises.
+My **first real software project**: a full-stack platform for discovering, browsing and reading books and novels, built as a way to learn development through a complete real-world application.
+
+**Tech:** `FastAPI` • `MySQL` • `Redis` • `JWT` • `Google OAuth` • `S3` • `HTML/CSS/JavaScript`
 
 **Highlights:**
-- Authentication and email verification
-- Google OAuth
-- JWT-based sessions
-- Redis caching and rate limiting
-- MySQL
-- FastAPI
-- API architecture and backend organization
+- Public catalogue of books and novels with pagination
+- Search by title and dedicated book/novel views
+- Detailed item pages with author, language, year, pages, genres and synopsis
+- Direct reading access to uploaded book files
+- Admin dashboard with counts for users, books and novels
+- Admin management of books, novels, categories and users
+- Registration, login, email verification and Google OAuth
+- JWT/cookie-based sessions, Redis caching and rate limiting
+- S3-compatible storage for covers and book files
 
 ---
 
